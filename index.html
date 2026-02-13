@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout Arcade Game</title>
+    <style href="styles.css"></style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>BREAKOUT</h1>
+        
+        <div class="game-info">
+            <div class="info-item">
+                <span class="info-label">Score</span>
+                <span class="info-value" id="score">0</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Lives</span>
+                <span class="info-value" id="lives">3</span>
+            </div>
+            <div class="info-item">
+                <span class="info-label">Level</span>
+                <span class="info-value" id="level">1</span>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas"></canvas>
+
+        <div class="controls">
+            <p><strong>Controls:</strong> Move mouse to control paddle</p>
+            <p><strong>Space</strong> to pause/resume • <strong>R</strong> to restart</p>
+        </div>
+    </div>
+
+    <script href="scripts.js" ></script>
+</body>
+</html>
